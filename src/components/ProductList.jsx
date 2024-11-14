@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
+import Spinner from "./Spinner";
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
@@ -20,7 +21,7 @@ const ProductList = () => {
       });
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <Spinner />;
   if (error) return <p>{error}</p>;
   return (
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">

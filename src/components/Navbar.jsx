@@ -2,7 +2,7 @@ import { Disclosure, Menu } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "E-commerce Store", href: "#", current: true },
+  { name: "E-commerce", href: "#", current: true },
   { name: "Home", href: "#", current: false },
   { name: "Products", href: "#", current: false },
   { name: "About", href: "#", current: false },
@@ -34,8 +34,8 @@ const Navbar = () => {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
               <img
-                alt="Your Company"
-                src="src/assets/png-transparent-letter-case-z-english-alphabet-z-letter-logo-angle-text-rectangle-thumbnail.png"
+                alt="Logo"
+                src="https://tse4.mm.bing.net/th?id=OIP.GArBJ_Zlk2St15L7oMO3fQHaHa&pid=Api&P=0&h=220"
                 className="h-8 w-auto"
               />
             </div>

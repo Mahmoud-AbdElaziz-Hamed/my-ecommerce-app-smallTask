@@ -4,9 +4,9 @@ import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const Slider = () => {
   const images = [
-    "src/assets/slider1.jpg",
-    "src/assets/slider2.jpg",
-    "src/assets/slider3.jpg",
+    "https://tse4.mm.bing.net/th?id=OIP.jn_HBMcNUcl62Skn4iTwYAHaE8&pid=Api&P=0&h=220",
+    "https://www.opalwebdesign.com/wp-content/uploads/2014/03/ecommerce-SLIDER.jpg",
+    "https://www.pagetraffic.com/blog/wp-content/uploads/2022/11/best-ecommerce-platforms.jpg",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
